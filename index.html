@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogPhotoApp</title>
+</head>
+<body>
+    <main>
+        <h1>DogPhotoApp</h1>
+        <section>
+            <h2>Dog Photos</h2>
+            <p>See more <a  target="_blank" href="https://www.pexels.com/search/dogs/">Dog pics</a> in our gallery</p>
+            <img src="https://t3.ftcdn.net/jpg/05/59/27/48/360_F_559274893_O9iSRQwTKIkAooNTglilMgx2yMcXK9Or.jpg">
+        </section>
+        <section>
+            <h2>Dog Lists</h2>
+            <h3>Things dogs love</h3>
+            <ul>
+                <li>Bones</li>
+                <li>Balls</li>
+                <li>Toys</li>
+            </ul>
+            <figure>
+                <img alt="Dog food" src="https://media.istockphoto.com/id/539071535/photo/bowl-of-dog-food.jpg?s=612x612&w=0&k=20&c=48jSoNa5Vod-1inwbhpSQWKv5eEIhnWr8YAfhKI823M=">
+                <figcaption>Dogs <em>love</em> dog food</figcaption>
+            </figure>
+            <h3>Top 3 things dogs hate:</h3>
+            <ol>
+                <li>Cats</li>
+                <li>Other dogs</li>
+                <li>Insects</li>
+            </ol>
+            <figure>
+                <img alt="dogs with other dogs" src="https://hips.hearstapps.com/hmg-prod/images/group-portrait-of-adorable-puppies-royalty-free-image-1687451786.jpg?crop=0.89122xw:1xh;center,top&resize=1200:*"> 
+                <figcaption>Dogs hate other dogs</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Dog form</h2>
+            <fieldset>
+                <legend>Is your dag indoor or outdoor dog?</legend>
+                <label><input id="indoor" type="radio" value="indoor" name="indoor-outdoor" > Indoor</label>
+                <label><input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor" checked> Outdoor</label>
+            </fieldset>
+            <fieldset>
+                <legend>What's your dog's personality</legend>
+                
+                <label for="Loving"><input id="Loving" type="checkbox" value="Loving" name="personality" checked> Loving</label>
+                <label for="Lazy"><input id="Lazy" type="checkbox" value="Lazy" name="personality"> Lazy</label>
+                <label for="Energetic"><input id="Energetic" type="checkbox" value="Energetic" name="personality"> Energetic</label>
+            </fieldset>
+            <input type="text" placeholder="Dog photo URL">
+            <button>Submit</button>
+        </section>
+    </main>
+</body>
+</html>
